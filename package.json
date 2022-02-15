@@ -1,0 +1,8 @@
+{
+  "name": "typescrypt-cheatsheet-v4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:vianch/typescrypt-cheatsheet-v4.git",
+  "author": "Victor <vachavarro@gmail.com>",
+  "license": "MIT"
+}
