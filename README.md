@@ -166,6 +166,9 @@ class Child extends Parent implements Child, OtherChild {
 
 1. consider using `type` for your React Component Props and State, for consistency and because it is more constrained.
 
+
+**Interface** work better with **objects** and **method objects**, and **types** are better to work with **functions**, **complex types**, etc. You should not start to use one and delete the other. Instead of doing that, start to refactor slowly, thinking of what makes more sense to that specific situation.
+
 ### Useful table for Types vs Interfaces
 
 It's a nuanced topic, don't get too hung up on it. Here's a handy table:
