@@ -17,6 +17,24 @@ interface Child extends Parent, SomeClass {
     optionalProp?: Type;
     optionalMethod?(argument: Type): ReturnType;
 }
+
+const myConst: Child; // { parentProperty, x, y, z, property, optionalProp, optionalMethod}
+
+class MyClass implements Child {
+  public parentProperty: Type
+  public x: number;
+  public y: number;
+  public property: Type;
+  public optionalProp: Type;
+  
+  public optionalMethod(argument: Type): ReturnType {
+    const myConst: Type;
+    
+    return myConst;
+  }
+}
+
+
 ```
 - Interfaces can also **extend** other **interfaces** or **classes** using the `extends` keyword in order to compose more complex types out of simple types
 
