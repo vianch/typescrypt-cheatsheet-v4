@@ -1,25 +1,5 @@
 # TypeScrypt-cheatsheet-v4 
 
-## Arrays and tuples
-#### Array of strings
-``` string[] ``` or ``` Array<string> ```
-#### Array of functions that return strings
-```tsx (() => string)[] ``` or ``` { (): string; }[] ``` or ``` Array<() => string> ```
-#### Basic tuples
-```tsx 	
-let myTuple: [ string, number, boolean? ];
-myTuple = [ 'test', 42 ];
-```
-#### Variadic tuples
-```tsx
-type Numbers = [number, number];
-type Strings = [string, string];
- 
-type NumbersAndStrings = [...Numbers, ...Strings];  // [number, number, string, string]
-let myTuple: NumbersAndStrings;
-myTuple = [ 1, 2, 'test1', 'test2' ];
-```
-
 ## Interfaces
 #### Interface declaration
 ```tsx
@@ -66,6 +46,21 @@ interface Pair<T1, T2> {
   const point: Point = { x: 1, y: 2 };
 
   type PtValProp = keyof typeof point; // 'x' | 'y'
+```
+
+#### Basic tuples
+```tsx 	
+let myTuple: [ string, number, boolean? ];
+myTuple = [ 'test', 42 ];
+```
+#### Variadic tuples
+```tsx
+type Numbers = [number, number];
+type Strings = [string, string];
+ 
+type NumbersAndStrings = [...Numbers, ...Strings];  // [number, number, string, string]
+let myTuple: NumbersAndStrings;
+myTuple = [ 1, 2, 'test1', 'test2' ];
 ```
 
 #### Conditional types
@@ -205,6 +200,12 @@ It's a nuanced topic, don't get too hung up on it. Here's a handy table:
 ![typesEquivalent](https://user-images.githubusercontent.com/1800887/153990739-6420b14b-9df4-483c-9b7f-b35e11a364df.png)
 
 # Other types
+
+## Arrays and tuples
+#### Array of strings
+``` string[] ``` or ``` Array<string> ```
+#### Array of functions that return strings
+```tsx (() => string)[] ``` or ``` { (): string; }[] ``` or ``` Array<() => string> ```
 
 ## Enums
 ```tsx
