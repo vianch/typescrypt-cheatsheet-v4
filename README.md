@@ -160,7 +160,7 @@ class Child extends Parent implements Child, OtherChild {
 ```
 
 ## Types or Interfaces?
-- If you would like a heuristic, use interface until you need to use features from type.
+- If you would like a heuristic (practical), use interface until you need to use features from type.
 - Here's a helpful rule of thumb:
 1. always use `interface` for public API's definition when authoring a library or 3rd party ambient type definitions, as this allows a consumer to extend them via _declaration merging_ if some definitions are missing.
 
