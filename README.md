@@ -24,3 +24,5 @@ It's a nuanced topic, don't get too hung up on it. Here's a handy table:
 ⚠️ In some cases
 
 (source: [Karol Majewski](https://twitter.com/karoljmajewski/status/1082413696075382785))
+
+![typesVsInterfacesTweet](https://user-images.githubusercontent.com/1800887/153976740-ea5b15f2-0d09-46b5-8783-bb388c0eb694.png)
