@@ -201,6 +201,8 @@ It's a nuanced topic, don't get too hung up on it. Here's a handy table:
 
 ![typesVsInterfacesTweet](https://user-images.githubusercontent.com/1800887/153976740-ea5b15f2-0d09-46b5-8783-bb388c0eb694.png)
 
+#### Types Interface Equivalent 
+![typesEquivalent](https://user-images.githubusercontent.com/1800887/153990739-6420b14b-9df4-483c-9b7f-b35e11a364df.png)
 
 # Other types
 
@@ -289,3 +291,9 @@ function Foo() {
   return <div ref={divRef}>etc</div>;
 }
 ```
+
+
+## Sources:
+[TypeScrypt-React cheat sheet](https://github.com/typescript-cheatsheets/react/blob/main/README.md).
+[Differences between types-aliases](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces)
+[HandBook](https://www.typescriptlang.org/static/TypeScript%20Control%20Flow%20Analysis-8a549253ad8470850b77c4c5c351d457.png)
