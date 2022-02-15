@@ -124,30 +124,6 @@ is equivalent to
 Renderer
 ```
 
-## Functions
-#### Function type
-``` (argument: Type, argN: Type) => Type; ``` 
-or 
-``` (argument: Type, argN: Type): Type; ```
-#### Function type with optional param
-``` (argument: Type, optional?: Type) => ReturnType ```
-#### Function type with rest param
-``` (argument: Type, ...allOtherArgs: Type[]) => ReturnType ```
-#### Default argument
-``` function myFunction(argument = 'default'): ReturnType {} ```
-#### Arrow function
-``` (argument: Type): ReturnType => { ...; return value; } ```
-or
-``` (argument: Type): ReturnType => value ```
-#### Overloads
-```tsx 
-function myFunction(a: string): number;
-function myFunction(a: number): string;
-function myFunction(a: string | number): string | number {
-    ...
-}
-```
-
 ## Class
 ```tsx
 interface Child {
@@ -242,6 +218,32 @@ enum Colors {
     Blue = "#0000FF"
 }
 ```
+
+
+## Functions
+#### Function type
+``` (argument: Type, argN: Type) => Type; ``` 
+or 
+``` (argument: Type, argN: Type): Type; ```
+#### Function type with optional param
+``` (argument: Type, optional?: Type) => ReturnType ```
+#### Function type with rest param
+``` (argument: Type, ...allOtherArgs: Type[]) => ReturnType ```
+#### Default argument
+``` function myFunction(argument = 'default'): ReturnType {} ```
+#### Arrow function
+``` (argument: Type): ReturnType => { ...; return value; } ```
+or
+``` (argument: Type): ReturnType => value ```
+#### Overloads
+```tsx 
+function myFunction(a: string): number;
+function myFunction(a: number): string;
+function myFunction(a: string | number): string | number {
+    ...
+}
+```
+
 ## Union and intersection types
 #### Union
 ``` let myUnionVariable: number | string; ```
