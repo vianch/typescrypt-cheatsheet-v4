@@ -293,7 +293,14 @@ function Foo() {
 ```
 
 
+## Handbook Cheat sheet
+![TypeScript Interfaces-34f1ad12132fb463bd1dfe5b85c5b2e6](https://user-images.githubusercontent.com/1800887/153991180-467e6a80-17c6-434c-a0b7-2b67ce3024fc.png)
+![TypeScript Types-4cbf7b9d45dc0ec8d18c6c7a0c516114](https://user-images.githubusercontent.com/1800887/153991194-07584a0d-8109-4ce2-bc50-40209f6b0c3e.png)
+![TypeScript Classes-83cc6f8e42ba2002d5e2c04221fa78f9](https://user-images.githubusercontent.com/1800887/153991202-b7381e3e-2d81-4069-a911-971b453ca602.png)
+
+
+
 ## Sources:
-[TypeScrypt-React cheat sheet](https://github.com/typescript-cheatsheets/react/blob/main/README.md).
-[Differences between types-aliases](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces)
-[HandBook](https://www.typescriptlang.org/static/TypeScript%20Control%20Flow%20Analysis-8a549253ad8470850b77c4c5c351d457.png)
+- [TypeScrypt-React cheat sheet](https://github.com/typescript-cheatsheets/react/blob/main/README.md).
+- [Differences between types-aliases](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#differences-between-type-aliases-and-interfaces)
+- [HandBook](https://www.typescriptlang.org/static/TypeScript%20Control%20Flow%20Analysis-8a549253ad8470850b77c4c5c351d457.png)
