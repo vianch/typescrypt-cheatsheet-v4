@@ -44,6 +44,8 @@ interface Pair<T1, T2> {
     first: T1;
     second: T2;
 }
+
+const myConst: Pair<number, string>; // {first, second} where first is a number and the second a string
 ```
 
 ## Types
